@@ -1,8 +1,7 @@
 body {
-background-color: darkgrey;
+background-color: linen;
 margin: 0px;
 }
-
 .zindex {
 position: fixed;
 width: 100%;
@@ -11,7 +10,8 @@ top: 0px;
 }
 
 .hero-section{
-margin-top: 150px;
+margin-top: 120px;
+margin-bottom: 10px;
 }
 
 h3 {
@@ -30,7 +30,7 @@ font-style: italic;
 
 
 header{
-background-color: lightgreen;
+background-color: black;
 font-size: 12px;
 width: 100%;
 padding: 3px;
@@ -41,7 +41,7 @@ margin-bottom: 0px;
 }
 
 .navbar{
-margin-top: 0px;
+margin-top: px;
 }
 
 
@@ -54,7 +54,7 @@ margin-top: 0px;
 
 .navbar li {
 padding: 15px;
-background-color: brown;
+background-color: grey;
 font-size: 20px;
 width: 100%;
 }
@@ -69,6 +69,7 @@ color: white;
 display: flex;
 flex-wrap: wrap;
 gap: 10px;
+margin-top: 5px;
 }
 
 .box1 {
@@ -87,7 +88,8 @@ width: 40px;
 height: 40px;
 }
 
-p {
+.paragraph{
+margin-top: 5px;
 text-align: justify;
 font-size: 18px;
 }
@@ -98,4 +100,24 @@ color: Red;
 
 .live-chat {
 position: fixed;
+}
+
+p {
+    text-align: center;
+}
+
+.nav-list-1 ul {
+    list-style: none;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.nav-list-1 li, h5 {
+    justify-self: center;
+    font-size: 17px;
+}
+    
+.nav-list-1 a {
+    text-decoration: none;
+    color: #000;
 }
