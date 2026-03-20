@@ -10,7 +10,7 @@
 
 
 body {
-background-image: url(image/bgimage2.jpg);
+background-image: url(imagec/bgimage2.jpg);
 margin: 0px;
 }
 .zindex {
@@ -27,7 +27,7 @@ top: 0px;
 
 
 .hero-section{
-margin-top: 150px;
+margin-top: 200px;
 margin-bottom: 10px;
 color: white;
 }
